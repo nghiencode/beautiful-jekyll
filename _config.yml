@@ -23,14 +23,12 @@ description: Tài liệu cho dân nghiện code
 
 # List of links in the navigation bar
 navbar-links:
-  TDD:
-    - Giới thiệu: "https://pages.github.com/"
-  PHP:
-    - Giới thiệu: "https://pages.github.com/"
-  Python:
-    - Giới thiệu: "https://pages.github.com/"
-  JavaScript:
-    - Giới thiệu: "https://pages.github.com/"
+  # TDD:
+  #  - Giới thiệu: "https://pages.github.com/"
+  TDD: 'tdd'
+  PHP: 'php'
+  Python: 'python'
+  JavaScript: 'javascript'
   Giới thiệu: "aboutme"
 
 include: ['_pages']
