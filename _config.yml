@@ -25,7 +25,7 @@ description: Tài liệu cho dân nghiện code
 navbar-links:
   # TDD:
   #  - Giới thiệu: "https://pages.github.com/"
-  TDD: 'tdd'
+  # TDD: 'tdd'
   PHP: 'php'
   Python: 'python'
   JavaScript: 'javascript'
