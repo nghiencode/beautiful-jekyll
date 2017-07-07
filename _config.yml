@@ -28,8 +28,8 @@ navbar-links:
   # TDD: 'tdd'
   PHP: 'php'
   Laravel: 'laravel'
-  JavaScript: 'javascript'
-  ReactJs: 'reactjs'
+  JS: 'javascript'
+  React: 'reactjs'
   React Native: 'reactnative'
   Giới thiệu: "aboutme"
 
