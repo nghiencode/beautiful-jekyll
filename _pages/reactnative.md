@@ -1,5 +1,5 @@
 ---
-permalink: "/tdd/"
+permalink: "/reactnative/"
 layout: page
 title: React Native
 ---

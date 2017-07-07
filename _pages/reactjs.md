@@ -1,5 +1,5 @@
 ---
-permalink: "/tdd/"
+permalink: "/reactjs/"
 layout: page
 title: React JS
 ---
