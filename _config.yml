@@ -27,8 +27,10 @@ navbar-links:
   #  - Giới thiệu: "https://pages.github.com/"
   # TDD: 'tdd'
   PHP: 'php'
-  Python: 'python'
+  Laravel: 'laravel'
   JavaScript: 'javascript'
+  ReactJs: 'reactjs'
+  React Native: 'reactnative'
   Giới thiệu: "aboutme"
 
 include: ['_pages']

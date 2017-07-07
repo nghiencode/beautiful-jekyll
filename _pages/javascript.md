@@ -2,7 +2,7 @@
 permalink: "/javascript/"
 layout: page
 title: JavaScript
-subtitle: React + React native
+subtitle: JS ES6
 ---
 
 JavaScript
