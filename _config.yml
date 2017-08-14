@@ -26,14 +26,14 @@ navbar-links:
   # TDD:
   #  - Giới thiệu: "https://pages.github.com/"
   # TDD: 'tdd'
-  Languages:
+  Language:
     - PHP: 'php'
     - JS: 'javascript'
-  Frameworks:
+  Framework:
     - Laravel: 'laravel'
     - React: 'reactjs'
     - React Native: 'reactnative'
-  Học làm dự án:
+  Học dự án:
     - TODO: 'todo'
   Giới thiệu: "aboutme"
 
