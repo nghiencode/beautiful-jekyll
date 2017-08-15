@@ -2,7 +2,7 @@
 permalink: "/da-todo-setting-up/"
 layout: page
 title: "TodoApp with PouchDB/CouchDB"
-subtitle: "Step 1: Setting up project using start-react-native and some dependencies"
+subtitle: "Setting up project using start-react-native and some dependencies"
 ---
 
 ## Step 1: Install NodeJS
@@ -15,7 +15,7 @@ Following instruction at [NodeJS](https://nodejs.org/en/) home page.
 nvm install node
 ```
 
-## Step 3: Using latest NodeJS version to install `create-react-native-app` and creating new project
+## Step 3: Creating new project
 
 ```bash
 nvm use node
