@@ -34,8 +34,9 @@ Based on requirements, we get some decisition:
 # Implementation steps
 
 1. Setting up project using `start-react-native` and some dependencies.
-2. Setting up CouchDB server, PouchDB client.
+2. Setting up `CouchDB` server, `PouchDB` client.
 3. Laying out.
-4. Using PouchDB to store data.
+4. Using `PouchDB` to store data.
 5. Syncing data.
-6. Ready for production.
+6. Testing
+7. Ready for production.
