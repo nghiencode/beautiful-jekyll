@@ -22,3 +22,4 @@ Gates đã nói: "Để làm cho khoa học trỡ nên tuyệt vời trong mắt
 
 Bộ giáo trình của Feynnman phần lớn được hoàn thành trong quá trình ông giảng dạy ở Đại Học Công Nghệ California (Caltech) được giản dạy cho cả sinh viên chưa biết gì về vật lý lẫn sinh viên đã có kinh nghiệm nghiên cứu chuyên sâu. Bóc tách sự huyền bí ra khỏi các nguyên lý phức tạp của khoa học là chuyên môn của ông. Bộ giáo trình của ông được đánh giá là bộ giáo trình có đầy đam mê và niềm tin chắc chắn vào khoa học.
 
+Nếu Einstein đã tạo ra "phương trình tuyệt đẹp" thì Feynnman đã cho chúng ta một cảm nhận vô song về cái đẹp, sự lãng mạng của nghiên cứu khoa học chưa từng có trước đó. Phần lớn cuộc đời của ông luôn sống động, kì dị và khó đoán như chuyển động của các nguyên tử trong công trình nghiên cứu của ông. Ngoài thời gian nghiên cứu khoa học ra thì phần còn lại thời gian ông tập trung vào nghệ thuật, vẽ, và chơi trống bongo.
