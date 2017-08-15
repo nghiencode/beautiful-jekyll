@@ -21,5 +21,18 @@ nvm install node
 nvm use node
 npm install -g create-react-native-app
 create-react-native-app TodoApp
+cd TodoApp
+yarn add pouchdb-react-native native-base
 ```
 
+## Step 4: Ready to start
+
+Visit [https://expo.io](https://expo.io) for installing Expo to your device (iOS or Android)
+
+```bash
+yarn start
+```
+
+Capture QR code and happy coding!
+
+Next step: [Setting up CouchDB server.](/da-todo-setting-up-couchdb)
