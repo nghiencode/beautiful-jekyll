@@ -7,7 +7,7 @@ subtitle: Step 1: Setting up project using `start-react-native` and some depende
 
 ## Step 1: Install NodeJS
 
-Following instruction at [https://nodejs.org/en/](NodeJS) home page.
+Following instruction at [NodeJS](https://nodejs.org/en/) home page.
 
 ## Step 2: Install `nvm`
 

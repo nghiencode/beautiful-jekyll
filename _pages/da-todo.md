@@ -33,7 +33,7 @@ Based on requirements, we get some decisition:
 
 # Implementation steps
 
-1. Setting up project using `start-react-native` and some dependencies.
+1. [Setting up project using `start-react-native` and some dependencies.](/da-todo-setting-up)
 2. Setting up `CouchDB` server, `PouchDB` client.
 3. Laying out.
 4. Using `PouchDB` to store data.
