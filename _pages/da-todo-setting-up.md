@@ -1,8 +1,8 @@
 ---
 permalink: "/da-todo-setting-up/"
 layout: page
-title: TodoApp with PouchDB/CouchDB
-subtitle: Step 1: Setting up project using `start-react-native` and some dependencies
+title: "TodoApp with PouchDB/CouchDB"
+subtitle: "Step 1: Setting up project using start-react-native and some dependencies"
 ---
 
 ## Step 1: Install NodeJS
