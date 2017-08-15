@@ -34,9 +34,9 @@ navbar-links:
     - React: 'reactjs'
     - React Native: 'reactnative'
   Học Tập:
+    - Kim chỉ nam: 'kim-chi-nam'
     - Dự án:
       - TODO: 'todo'
-    - Kim chỉ nam: 'kim-chi-nam'
   Giới thiệu: "aboutme"
 
 include: ['_pages']
