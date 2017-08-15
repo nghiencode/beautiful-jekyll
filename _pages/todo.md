@@ -32,3 +32,10 @@ Based on requirements, we get some decisition:
 3. Using `Nativebase`, this is a trivial choice because it help we so much in laying out.
 
 # Implementation steps
+
+1. Setting up project using `start-react-native` and some dependencies.
+2. Setting up CouchDB server, PouchDB client.
+3. Laying out.
+4. Using PouchDB to store data.
+5. Syncing data.
+6. Ready for production.
