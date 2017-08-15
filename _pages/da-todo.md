@@ -1,5 +1,5 @@
 ---
-permalink: "/todo/"
+permalink: "/da-todo/"
 layout: page
 title: TodoApp with PouchDB/CouchDB
 subtitle: TodoApp with React Native, PouchDB, CouchDB and zero backend
