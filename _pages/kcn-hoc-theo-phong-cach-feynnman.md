@@ -23,3 +23,13 @@ Gates đã nói: "Để làm cho khoa học trỡ nên tuyệt vời trong mắt
 Bộ giáo trình của Feynnman phần lớn được hoàn thành trong quá trình ông giảng dạy ở Đại Học Công Nghệ California (Caltech) được giản dạy cho cả sinh viên chưa biết gì về vật lý lẫn sinh viên đã có kinh nghiệm nghiên cứu chuyên sâu. Bóc tách sự huyền bí ra khỏi các nguyên lý phức tạp của khoa học là chuyên môn của ông. Bộ giáo trình của ông được đánh giá là bộ giáo trình có đầy đam mê và niềm tin chắc chắn vào khoa học.
 
 Nếu Einstein đã tạo ra "phương trình tuyệt đẹp" thì Feynnman đã cho chúng ta một cảm nhận vô song về cái đẹp, sự lãng mạng của nghiên cứu khoa học chưa từng có trước đó. Phần lớn cuộc đời của ông luôn sống động, kì dị và khó đoán như chuyển động của các nguyên tử trong công trình nghiên cứu của ông. Ngoài thời gian nghiên cứu khoa học ra thì phần còn lại thời gian ông tập trung vào nghệ thuật, vẽ, và chơi trống bongo.
+
+## Kỹ thuật Feynnman
+
+Bạn đã từng có 1 đồng nghiệp nào hay sử dụng thuật ngữ hoặc 1 giáo viên giải thích điều gì đó với 1 ngôn ngữ rất khó hiểu?
+
+Bạn không đơn độc đâu. Kỹ thuật Feynnman cho việc giảng dạy và giao tiếp là một mô hình tâm lý (các tổng kết trong quá trình làm việc của ông) dùng để truyền tải thống tin sử dụng suy nghĩ cô đọng và ngôn ngữ đơn giản. Kỹ thuật này được hình thành từ phương pháp học của Feynnman khi ông theo học ở Princeton.
+
+Tại Princeton, Feynman bắt đầu ghi lại và kết nối các kiến thức ông biết và không biết. Cuối cùng, ông có một cuốn sổ toàn diện về các chủ đề được tháo rời, diễn giải và ghi chú kĩ càng.
+
+Trong cuốn tiểu sử về Feynnman mà James Gleick đã viết: Thiên tài: Cuộc đời và khoa học của Feynnman. James Gleick đã hồi tưởng lại: Ông ấy đã mở một quyển sổ mới ra. Ông viết tiêu đề của cuốn sổ: 'Cuốn sổ của những thứ tôi không hiểu'. Ông dành hàng tuần để tháo rời các mảng của vật lý, phác hoạ lại chúng và lắp ghép chúng lại với nhau, tìm kiếm các khoảng trống vào mâu thuẫn. Ông luôn cố gắng tìm kiếm bản chất của mỗi chủ đề.
