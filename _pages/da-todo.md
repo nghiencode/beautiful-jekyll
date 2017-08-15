@@ -7,15 +7,15 @@ subtitle: TodoApp with React Native, PouchDB, CouchDB and zero backend
 
 # Requirements
 
-The TodoApp will help us memorize somethings we need with priorities.
+The TodoApp will help us memorize something we need with priorities.
 
-We can create/edit/remove/rearange/mark done todos.
+We can create/edit/remove/re-arange/mark done todos.
 
-Our requirements are TodoApp can work on both online and offline.
+Our requirements are TodoApp able to work on both online and offline.
 
-User can have one or many devices such as iPhone, iPad and Android devices.
+User can have more than one device such as iPhone, iPad and Android devices.
 
-When user update todo by one device, the other device(s) will change correspondingly.
+When user update todo by one device, the other device(s) will be changed.
 
 Then we get some conclusions:
 
@@ -25,15 +25,15 @@ Then we get some conclusions:
 
 # Choosing technologies
 
-Based on requirements, we get some decisition:
+Based on requirements, we get some decisitions:
 
-1. Using `React Native` with `start-react-native` (Expo) because we don't need any function need `link` to platform.
-2. Using using `PouchDB` for client and `CouchDB` for server because we need sync data.
-3. Using `Nativebase`, this is a trivial choice because it help we so much in laying out.
+1. Using `React Native` with `start-react-native` (Expo) because we don't need any function that requires `link` to platform.
+2. Using `PouchDB` for client and `CouchDB` for server because we need sync data.
+3. Using `Nativebase`, this is a trivial choice because it help us so much in making layout.
 
 # Implementation steps
 
-1. [Setting up project using `start-react-native` and some dependencies.](/da-todo-setting-up)
+1. [Setting up project using start-react-native and some dependencies.](/da-todo-setting-up)
 2. Setting up `CouchDB` server, `PouchDB` client.
 3. Laying out.
 4. Using `PouchDB` to store data.
