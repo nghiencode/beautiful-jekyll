@@ -35,4 +35,4 @@ yarn start
 
 Capture QR code and happy coding!
 
-Next step: [Setting up CouchDB server.](/da-todo-setting-up-couchdb)
+**Next step:** [Setting up CouchDB server.](/da-todo-setting-up-couchdb)
