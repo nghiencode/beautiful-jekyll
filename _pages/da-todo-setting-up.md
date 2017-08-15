@@ -9,7 +9,7 @@ subtitle: "Setting up project using start-react-native and some dependencies"
 
 Following instruction at [NodeJS](https://nodejs.org/en/) and [CouchDB](http://docs.couchdb.org/en/2.1.0/install/unix.html) home page.
 
-## Step 2: Install `nvm`
+## Step 2: Install nvm
 
 ```bash
 nvm install node
