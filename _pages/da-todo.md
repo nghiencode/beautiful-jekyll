@@ -34,9 +34,8 @@ Based on requirements, we get some decisitions:
 # Implementation steps
 
 1. [Setting up project using start-react-native and some dependencies.](/da-todo-setting-up/)
-2. [Setting up CouchDB server.](/da-todo-setting-up-couchdb)
-3. Laying out.
-4. Using `PouchDB` to store data.
-5. Syncing data.
-6. Testing.
-7. Ready for production.
+2. [Making layout.](/da-todo-making-layout)
+3. Using PouchDB to store data.
+4. Syncing data.
+5. Testing.
+6. Ready for production.

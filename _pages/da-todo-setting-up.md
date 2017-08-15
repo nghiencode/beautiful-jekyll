@@ -5,9 +5,9 @@ title: "TodoApp with PouchDB/CouchDB"
 subtitle: "Setting up project using start-react-native and some dependencies"
 ---
 
-## Step 1: Install NodeJS
+## Step 1: Install NodeJS and CouchDB
 
-Following instruction at [NodeJS](https://nodejs.org/en/) home page.
+Following instruction at [NodeJS](https://nodejs.org/en/) and [CouchDB](http://docs.couchdb.org/en/2.1.0/install/unix.html) home page.
 
 ## Step 2: Install `nvm`
 
@@ -35,4 +35,4 @@ yarn start
 
 Capture QR code and happy coding!
 
-**Next step:** [Setting up CouchDB server.](/da-todo-setting-up-couchdb)
+**Next step:** [Making layout.](/da-todo-making-layout)
