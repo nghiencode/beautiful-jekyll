@@ -9,7 +9,7 @@ subtitle: "Making layout with NativeBase"
 
 Set content of `App.js`
 
-```jsx
+```JSX
 import React, { Component } from 'react';
 import { Container, Header, Title, Content, Body, Text } from 'native-base';
 
