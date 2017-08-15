@@ -13,7 +13,7 @@ We can create/edit/remove/rearange/mark done todos.
 
 Our requirements are TodoApp can work on both online and offline.
 
-User can have one or many devices such as an iPhone and an iPad and and Android device.
+User can have one or many devices such as iPhone, iPad and Android devices.
 
 When user update todo by one device, the other device(s) will change correspondingly.
 
@@ -38,5 +38,5 @@ Based on requirements, we get some decisition:
 3. Laying out.
 4. Using `PouchDB` to store data.
 5. Syncing data.
-6. Testing
+6. Testing.
 7. Ready for production.
