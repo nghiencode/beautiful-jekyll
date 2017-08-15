@@ -17,7 +17,7 @@ User can have one or many devices such as an iPhone and an iPad and and Android 
 
 When user update todo by one device, the other device(s) will change correspondingly.
 
-Based on requrements above, we get some conclusions:
+Then we get some conclusions:
 
 1. App can run on most mobile devices (iOS and Android are majority)
 2. App can work on both online and offline
@@ -25,6 +25,10 @@ Based on requrements above, we get some conclusions:
 
 # Choosing technologies
 
+Based on requirements, we get some decisition:
 
+1. Using `React Native` with `start-react-native` (Expo) because we don't need any function need `link` to platform.
+2. Using using `PouchDB` for client and `CouchDB` for server because we need sync data.
+3. Using `Nativebase`, this is a trivial choice because it help we so much in laying out.
 
 # Implementation steps
