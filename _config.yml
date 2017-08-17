@@ -26,13 +26,14 @@ navbar-links:
   # TDD:
   #  - Giới thiệu: "https://pages.github.com/"
   # TDD: 'tdd'
-  Language:
-    - PHP: 'php'
-    - JS: 'javascript'
-  Framework:
-    - Laravel: 'laravel'
+  Client:
+    - Javascript: 'javascript'
     - React: 'reactjs'
     - React Native: 'reactnative'
+  Server:
+    - PHP: 'php'
+    - Laravel: 'laravel'
+    - CouchDB: 'couchdb'
   Học Tập:
     - Kim chỉ nam: 'kim-chi-nam'
     - Dự án: 'du-an'
