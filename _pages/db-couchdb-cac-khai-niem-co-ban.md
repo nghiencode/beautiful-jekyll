@@ -24,3 +24,24 @@ title: Các khái niệm cơ bản về CouchDB
 * Mỗi database là 1 danh sách các document độc lập.
 * Document bao gồm dữ liệu người dùng thao tác lẫn thông tin về phiên bản của dữ liệu để tiện việc merge dữ liệu.
 * CouchDB sử dụng cơ chế phiên bản hoá dữ liệu để tránh tình trạng khoá dữ liệu khi đang ghi.
+
+## Các tính năng chính
+
+### Lưu trữ dạng document
+
+CouchDB là một NoSQL database dạng document. Document là một đơn vị dữ liệu (giống như 1 object của Javascript), mỗi field có một tên riêng không trùng nhau, chứa các loại dữ liệu như chữ, số, Boolean, danh sách... Không có bất kì giới hạn nào về dung lượng text hay số field trong 1 doucment.
+
+CouchDB cung cấp 1 RESTFul API cho việc đọc và ghi (thêm, sửa, xoá) document.
+
+Sau đây là 1 ví dụ về 1 document
+
+```JSON
+{
+	"title": "Macbook",
+	"price": 1500,
+	"SKU": "abcd1234"
+}
+```
+
+### Các thuộc tính ACID
+
