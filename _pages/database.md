@@ -8,4 +8,4 @@ subtitle: Tutorials about databases
 
 CouchDB | PouchDB | MongoDB
 --- | --- | ---
-Basic concepts | `renders` | **nicely**
+Basic concepts | |
