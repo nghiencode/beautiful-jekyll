@@ -33,7 +33,7 @@ navbar-links:
   Server:
     - PHP: 'php'
     - Laravel: 'laravel'
-    - CouchDB: 'couchdb'
+    - Database: 'database'
   Học Tập:
     - Kim chỉ nam: 'kim-chi-nam'
     - Dự án: 'du-an'
