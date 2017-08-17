@@ -8,4 +8,4 @@ subtitle: Tutorials about databases
 
 CouchDB | PouchDB | MongoDB
 --- | --- | ---
-[Basic concepts](/db-couchdb-basic-concepts) | |
+[Các khái niệm cơ bản](/db-couchdb-cac-khai-niem-co-ban) | |

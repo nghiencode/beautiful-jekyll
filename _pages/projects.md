@@ -4,4 +4,4 @@ layout: page
 title: Học qua dự án
 ---
 
-[TodoApp](/da-todo)
+[TodoApp](/project-todo)

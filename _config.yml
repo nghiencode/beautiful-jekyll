@@ -36,7 +36,7 @@ navbar-links:
     - Database: 'database'
   Học Tập:
     - Kim chỉ nam: 'kim-chi-nam'
-    - Dự án: 'du-an'
+    - Projects: 'projects'
   Giới thiệu: "aboutme"
 
 include: ['_pages']
