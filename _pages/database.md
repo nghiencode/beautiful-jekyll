@@ -8,4 +8,4 @@ subtitle: Tutorials about databases
 
 CouchDB | PouchDB | MongoDB
 --- | --- | ---
-Basic concepts | |
+[Basic concepts](/db-couchdb-basic-concepts) | |
