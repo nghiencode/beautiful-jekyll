@@ -6,7 +6,6 @@ subtitle: Tutorials about databases
 ---
 
 
-Markdown | Less | Pretty
+CouchDB | PouchDB | MongoDB
 --- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+Basic concepts | `renders` | **nicely**
