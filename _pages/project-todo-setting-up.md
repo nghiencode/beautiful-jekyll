@@ -1,5 +1,5 @@
 ---
-permalink: "/da-todo-setting-up/"
+permalink: "/project-todo-setting-up/"
 layout: page
 title: "TodoApp with PouchDB/CouchDB"
 subtitle: "Setting up project using start-react-native and some dependencies"

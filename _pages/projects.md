@@ -1,7 +1,7 @@
 ---
-permalink: "/du-an/"
+permalink: "/projects/"
 layout: page
-title: Học qua dự án
+title: Learning by projects
 ---
 
 [TodoApp](/project-todo)
