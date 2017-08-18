@@ -35,7 +35,7 @@ CouchDB cung cấp 1 RESTFul API cho việc đọc và ghi (thêm, sửa, xoá) 
 
 Sau đây là 1 ví dụ về 1 document
 
-```JSON
+```javascript
 {
 	"title": "Macbook",
 	"price": 1500,
@@ -44,4 +44,11 @@ Sau đây là 1 ví dụ về 1 document
 ```
 
 ### Các thuộc tính ACID
+
+Khi dữ liệu được ghi xuống ổ cứng thì nó sẽ không bị ghi đè. Bất kì thay đổi nào (thêm, sửa, xoá) đều theo chuẩn Atomic, có nghĩa là dữ liệu sẽ được lưu lại toàn diện hoặc không được lưu lại. Database không bao giờ thêm hay sửa một phần dữ liệu.
+
+Hầu hết các cập nhật đều được serialized để đảm bảo tất cả người dùng có thể đọc document mà không bị chờ đợi hoặc gián đoạn.
+
+### Khả năng nén (compaction)
+
 
