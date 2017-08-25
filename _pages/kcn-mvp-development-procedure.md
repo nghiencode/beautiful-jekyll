@@ -31,7 +31,7 @@ After that, we have some steps:
 **Step 3:** Follow Github repo's instruction, seeding data if needed.
 **Step 4:** Run test -> if fail: back to step 3
 **Step 5:** Make conversation with PM or team leader about which issue you can implement then pick one.
-**Step 6:** Estimate necessary time for implementing, PM will assign that developer to Github issue and create cart(s) on Trello for time tracking.
+**Step 6:** Estimate necessary time for implementing, working with designer, PM will assign that developer to Github issue and create cart(s) on Trello for time tracking.
 **Step 7:** Developing, writing test cases.
 **Step 8:** Push code and create new pull request.
 **Step 9:** Code reviewing + editing n times till good.
