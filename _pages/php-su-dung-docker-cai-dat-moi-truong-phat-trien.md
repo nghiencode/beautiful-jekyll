@@ -16,14 +16,14 @@ mkdir myproject/configs # Lưu cấu hình nginx
 cd myproject
 ```
 
-Donwload Laravel
+**Donwload Laravel**
 
 ```bash
 curl -L https://github.com/laravel/laravel/archive/v5.5.0.tar.gz | tar xz
 mv laravel-5.5.0 src # Source code
 ```
 
-Install dependencies
+**Install dependencies**
 
 ```bash
 docker run --rm -v $(pwd):/app composer/composer install
@@ -111,6 +111,21 @@ FROM nginx:1.12.1
 ADD configs/nginx.conf /etc/nginx/conf.d/default.conf
 ```
 
+## Bước 3:
 
+**Chạy phát đầu tiên để docker tiến hành cài đặt môi trường**
 
+```bash
+docker-compose up
+```
 
+**Init Laravel**
+
+```
+docker-compose exec app php artisan key:generate
+docker-compose exec app php artisan optimize
+```
+
+DONE
+
+**Ghi chú:*** Để tắt docker instance ta cần cd đến folder chứa file docker-compose.json của nó và chạy: `docker-compose down`
