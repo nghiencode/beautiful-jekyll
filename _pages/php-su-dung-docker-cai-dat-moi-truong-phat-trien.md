@@ -126,6 +126,8 @@ docker-compose exec app php artisan key:generate
 docker-compose exec app php artisan optimize
 ```
 
-DONE
+**Ghi chú:** Để tắt docker instance ta cần cd đến folder chứa file docker-compose.json của nó và chạy: `docker-compose down`
 
-**Ghi chú:*** Để tắt docker instance ta cần cd đến folder chứa file docker-compose.json của nó và chạy: `docker-compose down`
+Kiểm tra trên trình duyệt với địa chỉ: **http://localhost:8080**
+
+DONE
