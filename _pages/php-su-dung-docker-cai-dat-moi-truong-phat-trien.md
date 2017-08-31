@@ -11,10 +11,22 @@ subtitle: Sử dụng Docker để cài đặt môi trường phát triển (Ngi
 
 ```bash
 mkdir myproject # Folder gốc của dự án
-mkdir myproject/src # Source code
 mkdir myproject/dbdata # Lưu dữ liệu của database
 mkdir myproject/configs # Lưu cấu hình nginx
 cd myproject
+```
+
+Donwload Laravel
+
+```bash
+curl -L https://github.com/laravel/laravel/archive/v5.5.0.tar.gz | tar xz
+mv laravel-5.5.0 src # Source code
+```
+
+Install dependencies
+
+```bash
+docker run --rm -v $(pwd):/app composer/composer install
 ```
 
 ## Bước 2:
@@ -27,7 +39,7 @@ vim docker-compose.yml
 
 Với nội dung:
 
-```YAML
+```
 version: '2'
 services:
   # The Database
