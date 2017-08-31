@@ -1,22 +1,104 @@
 ---
 permalink: "/php-su-dung-docker-cai-dat-moi-truong-phat-trien/"
 layout: page
-title: PHP
-subtitle: Sử dụng Docker để cài đặt môi trường phát triển
+title: Docker & PHP
+subtitle: Sử dụng Docker để cài đặt môi trường phát triển (Nginx, PHP7, PHP-FPM, PostgreSQL)
 ---
 
-**Setup môi trường**
-1. Sử dụng Docker cài đặt Nginx, PHP7, PHP-FPM, PostgreSQL
+## Bước 1:
 
-**Các khái niệm cơ bản**
-1. Variable (biến)
-2. Conditions (cấu trúc điều kiện)
-3. Loop (vòng lặp)
-4. String (chuỗi)
-5. Array (mảng)
-6. Operator (toán tử)
-7. Try/catch (bẫy lỗi)
-8. Function (hàm)
+**Tạo cấu trúc folder cho dự án mới**
+
+```bash
+mkdir myproject # Folder gốc của dự án
+mkdir myproject/src # Source code
+mkdir myproject/dbdata # Lưu dữ liệu của database
+mkdir myproject/configs # Lưu cấu hình nginx
+cd myproject
+```
+
+## Bước 2:
+
+**Tạo file cấu hình `docker compose`**
+
+```bash
+vim docker-compose.yml
+```
+
+Với nội dung:
+
+```YAML
+version: '2'
+services:
+  # The Database
+  db:
+    restart: always
+    image: postgres
+    environment:
+        - POSTGRES_USER=docker
+        - POSTGRES_PASSWORD=docker
+        - POSTGRES_DB=docker
+    ports:
+        - "5432:5432"
+    volumes:
+        - ./dbdata:/var/lib/postgresql/data/
+
+  # The Application
+  app:
+    build:
+      context: ./
+      dockerfile: app.dockerfile
+    working_dir: /var/www
+    volumes:
+      - ./src/:/var/www
+    environment:
+      - "DB_CONNECTION=pgsql"
+      - "DB_PORT=5432"
+      - "DB_HOST=db"
+
+  # The Web Server
+  server:
+    build:
+      context: ./
+      dockerfile: server.dockerfile
+    working_dir: /var/www
+    volumes_from:
+      - app
+    ports:
+      - 8080:80
+```
+
+File cấu hình này phụ thuộc vào 2 cấu hình của `app` và `server` là `app.dockerfile` và `server.dockerfile`
+
+```bash
+vim app.dockerfile
+```
+
+Với nội dung:
+
+```
+FROM php:7.1.8-fpm
+
+RUN apt-get update && apt-get install -y libmcrypt-dev libpq-dev \
+    libmagickwand-dev --no-install-recommends \
+    && pecl install imagick \
+    && docker-php-ext-configure pgsql -with-pgsql=/usr/local/pgsql \
+    && docker-php-ext-enable imagick \
+    && docker-php-ext-install mcrypt pdo pdo_pgsql pgsql
+```
+
+```bash
+vim server.dockerfile
+```
+
+Với nội dung
+
+```
+FROM nginx:1.12.1
+
+ADD configs/nginx.conf /etc/nginx/conf.d/default.conf
+```
+
 
 
 
