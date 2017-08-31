@@ -26,7 +26,7 @@ mv laravel-5.5.0 src # Source code
 **Install dependencies**
 
 ```bash
-docker run --rm -v $(pwd):/app composer/composer install
+docker run --rm -v $(pwd)/src:/app composer/composer install
 ```
 
 ## Bước 2:
@@ -128,6 +128,6 @@ docker-compose exec app php artisan optimize
 
 **Ghi chú:** Để tắt docker instance ta cần cd đến folder chứa file docker-compose.json của nó và chạy: `docker-compose down`
 
-Kiểm tra trên trình duyệt với địa chỉ: **http://localhost:8080**
+Kiểm tra trên trình duyệt với địa chỉ: `http://localhost:8080`
 
 DONE
