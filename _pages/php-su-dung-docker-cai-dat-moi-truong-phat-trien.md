@@ -1,12 +1,12 @@
 ---
-permalink: "/php/"
+permalink: "/php-su-dung-docker-cai-dat-moi-truong-phat-trien/"
 layout: page
 title: PHP
-subtitle: Kiến thức cơ bản về PHP7
+subtitle: Sử dụng Docker để cài đặt môi trường phát triển
 ---
 
 **Setup môi trường**
-1. [Sử dụng Docker cài đặt môi trường phát triển (Nginx, PHP, PHP-FPM, PostgreSQL)](/php-su-dung-docker-cai-dat-moi-truong-phat-trien)
+1. Sử dụng Docker cài đặt Nginx, PHP7, PHP-FPM, PostgreSQL
 
 **Các khái niệm cơ bản**
 1. Variable (biến)

@@ -35,6 +35,7 @@ After that, we have some steps:
 * **Step 7:** Developing, writing test cases.
 * **Step 8:** Push code and create new pull request.
 * **Step 9:** Code reviewing + editing n times till good.
-* **Step 10:** Merge code + run test on production environment (CI), if fail -> back to step 9.
-* **Step 11:** Mark Github issue resolved, move Trello card(s).
-* **Step 11:** Back to step 5.
+* **Step 10:** Merge code + run test on staging environment (CI), if fail -> back to step 9.
+* **Step 11:** Product owner comment.
+* **Step 12:** Mark Github issue resolved, move Trello card(s).
+* **Step 13:** Back to step 5.
