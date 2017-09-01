@@ -3,6 +3,7 @@ permalink: "/php-su-dung-docker-cai-dat-moi-truong-phat-trien/"
 layout: page
 title: Docker & PHP
 subtitle: Sử dụng Docker để cài đặt môi trường phát triển (Nginx, PHP7, PHP-FPM, PostgreSQL)
+bigimg: /img/pages/docker-php.png
 ---
 
 ## Bước 1:
